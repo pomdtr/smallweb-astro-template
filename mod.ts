@@ -17,6 +17,8 @@ export async function handle(req: Request): Promise<Response> {
   });
 }
 
-export default {
+export const handler = {
   fetch: handle,
 };
+
+export default handler;
