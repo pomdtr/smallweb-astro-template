@@ -16,3 +16,7 @@ export async function handle(req: Request): Promise<Response> {
     },
   });
 }
+
+export default {
+  fetch: handle,
+};
