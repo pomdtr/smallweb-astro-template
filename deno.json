@@ -1,0 +1,14 @@
+{
+    "name": "@pomdtr/astro-val-template",
+    "version": "0.0.1",
+    "exports": {
+        ".": "./mod.ts"
+    },
+    "publish": {
+        "include": [
+            "mod.ts",
+            "astro/dist/server",
+            "embed"
+        ]
+    }
+}
