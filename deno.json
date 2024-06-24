@@ -4,6 +4,11 @@
     "exports": {
         ".": "./mod.ts"
     },
+    "tasks": {
+        "build-app": "cd app && npm run build",
+        "embed-app": "deno run -A ./embedder.ts build",
+        "build": "deno task build-app && deno task embed-app"
+    },
     "publish": {
         "include": [
             "mod.ts",

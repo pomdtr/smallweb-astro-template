@@ -1,5 +1,5 @@
 # build output
-dist/client/
+dist/
 
 # generated types
 .astro/
