@@ -1,4 +1,4 @@
-import * as server from "./app/dist/server/entry.mjs";
+import * as server from "./astro/dist/server/entry.mjs";
 import { serveDir } from "jsr:@std/http/file-server";
 
 export async function handle(req: Request): Promise<Response> {

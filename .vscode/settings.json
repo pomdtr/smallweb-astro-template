@@ -1,5 +1,6 @@
 {
-    "deno.disablePaths": [
-        "app"
-    ]
+    "deno.enable": false,
+    "deno.enablePaths": [
+        "./deno"
+    ],
 }
