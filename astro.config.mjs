@@ -4,7 +4,7 @@ import deno from '@deno/astro-adapter';
 // https://astro.build/config
 export default defineConfig({
     output: 'server',
-    outDir: 'dist/astro',
+    outDir: 'deno/astro',
     adapter: deno({
         start: false,
     })
