@@ -3,7 +3,7 @@ import { serveDir } from "jsr:@std/http/file-server";
 
 export async function handle(req: Request): Promise<Response> {
   const res = await serveDir(req, {
-    fsRoot: "./app/dist/client",
+    fsRoot: "./astro/dist/client",
   });
 
   if (res.status === 404) {
